@@ -1,0 +1,533 @@
+@charset "UTF-8";
+
+/*共通*/
+
+html{
+    font-size: 100%;
+    color: #272626;
+    font-family: MS Mincho;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+
+  /*title一括設定*/
+  .title h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+  }
+
+  .title p{
+    text-align: center;
+    letter-spacing: 0.5rem;
+    line-height: 2em;
+    font-size: 20px;
+    padding: 50px;
+  }
+
+    /*navここから*/
+    #nav{
+      background-color: #FCFFD4;
+      width: 100%;
+      height: 140px;
+      position: relative;
+    }
+
+    .main-nav{
+      width: 100%;
+      display: flex;
+      font-size: 1.25rem;
+      list-style: none;
+      position: absolute;
+      top: 50%;
+      justify-content: center;
+    }
+
+    .main-nav li{
+      letter-spacing: 0.2rem;
+      padding-left: 10%;
+    }
+
+    .main-nav a{
+      color: #272626;
+    }
+
+      /*navここまで*/
+
+      /*campaignここから*/
+      #campaign{
+        width: 100%;
+        height: 726px;
+        display: flex;
+        justify-content: center;
+        background-color: #D1FFD3;
+        position: relative;
+        padding: 100px
+      }
+
+      .campaign-container{
+        color: #272626;
+        height: 40%;
+        border-radius: 50px;
+        padding: 1.5em 1.5em;
+        letter-spacing: 0.3rem;
+        background: linear-gradient(90deg, rgb(238, 117, 191) 0%, rgb(236, 196, 219) 50%, rgb(238, 117, 191) 100%);
+      }
+
+      .campaign-container h2{
+        text-align: center;
+      }
+
+      .campaign-container h3{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0.5em 0.5em;
+        margin: 1em 0;
+        color: #272626;
+        background: #FCFFD4;/*背景色*/
+      }
+
+      .campaign-container span{
+        font-size: 5rem;
+      }
+
+      .campaign-normal{
+        border-top: 1px solid;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2rem;
+        width: 800px;
+        position: absolute;
+        padding-top: 20px;
+        top:50%
+      }
+
+      .normal{
+        text-decoration: line-through;
+        letter-spacing: 0.4rem;
+      }
+
+      .cheap {
+        text-align: right;
+      }
+           
+      .campaign-price {
+        font-size: 2rem;
+        width: 800px;
+        position: absolute;
+        top: 55%
+      }
+
+
+
+      .admission-free{
+        font-size: 5rem;
+        letter-spacing: 1rem;
+      }
+
+      .admission-free span{
+        font-size: 8rem;
+      }
+
+      .campaign-price p{
+        margin: 3rem;
+        text-align: center;
+      }
+      
+      /*campaignここまで*/
+
+    
+      /*tryここから*/
+
+      #try{
+        background-color: #FCFFD4;
+        width: 100%;
+        height: 450px;
+        text-align: center;
+      }
+
+
+      /*ボタン*/
+      .button{
+        background-color:#96F7FF;
+        color: #272626;
+        border-radius: 5px;
+        padding: 18px 32px;
+        text-decoration: none;
+        letter-spacing: 0.2rem;
+      }
+      
+      .botton:hover{
+        background-color: #0090aa;
+      }
+
+      /*tryここまで*/
+
+
+      /*お悩みかいけつここから*/
+
+      #answer{
+        height: 580px;
+        width: 100%;
+        background-color:#FCFFD4;
+      }
+
+      #answer p{
+        font-size: 5rem;
+        text-align: center;
+      }
+
+      .speach{
+        width: 100%;
+        position: relative;
+
+      }
+
+      .img-left{
+        position: absolute;
+        left: 15%;
+      }
+
+      .img-right{
+        position: absolute;
+        left: 55%;
+        height: 500px;
+      }
+
+      /*お悩み解決ここまで*/
+
+      /*3つのポイントここから*/
+      #point{
+        height: 900px;
+        background-color: #FCFFD4;
+      }
+
+
+
+      #point h2 span{
+        font-size: 5rem;
+      }
+
+      .head-border{
+        display: flex;
+        align-items: center;
+      }
+
+      .head-border:before,
+      .head-border:after {
+        content: "";
+        height: 1px;
+        flex-grow: 1;
+        background-color: #666;
+      }
+
+      .head-border:before {
+        margin-right: 1rem;
+      }
+    
+    .head-border:after {
+        margin-left: 1rem;
+      }
+
+      .point3{
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+      }
+      /*3つのポイントここまで*/
+
+      /*2コースここから*/
+      #corce{
+        height: 500px;
+        background-color: #D1FFD3;
+      }
+
+
+
+      #corce h2 span{
+        font-size: 5rem;
+      }
+
+
+      /*２コースここまで*/
+
+      #piratis{
+        background-image: url(../images/pilates.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 800px;    
+      }
+
+      .course h2{
+        font-size: 3rem;  
+        letter-spacing: 1.2rem;
+        padding: 50px 30px;
+        text-decoration: underline 1px;
+        text-decoration-color:#96F7FF ;
+      }
+
+      .circle{
+        display: inline-block;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        color: #272626;
+        font-size: 4rem;
+        text-align: center;
+        line-height: 80px;
+        border: solid 1px #96F7FF;
+      }
+
+      #piratis h3{
+        font-size: 4rem;
+        letter-spacing: 1.2rem;
+        padding-left: 50px;
+      }
+
+      .introduction{
+        height: 300px;
+        width: 600px;
+        text-align: center;
+        letter-spacing: 0.7rem;
+        line-height: 30px;
+        margin: 50px;
+        padding-top: 70px;
+        background-color: rgba(252, 251, 251, 0.5);
+      }
+
+      #bodymake{
+        background-image: url(../images/bodymake1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 800px;    
+      }
+
+      #bodymake h2{
+        font-size: 3rem;  
+        letter-spacing: 1.2rem;
+        padding: 50px 30px;
+        text-decoration: underline 1px;
+        text-decoration-color:#96F7FF ;
+        text-align: right;
+      }
+
+      #bodymake h3{
+        font-size: 4rem;
+        text-align: right;
+        letter-spacing: 1.2rem;
+        padding-left: 50px;
+      }
+
+      .bodymake-container{
+        display: flex;
+        justify-content: flex-end;
+      }
+
+/*こだわりここから*/
+      #commit{
+        background-color: #FCFFD4;
+      }
+
+
+/*こだわりここまで*/
+
+/*アクセスここから*/
+      #access{
+        background-color: #D1FFD3;
+      }
+      .access-container{
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding:70px;
+      }
+
+      .access-container img{
+        width: 300px;
+        padding-bottom: 50px;
+      }
+
+      .address{
+        font-size: 25px;
+        letter-spacing: 0.7rem;
+        line-height: 50px;
+        text-align: center;
+      }/*アクセスここまで*/
+     
+ /*お客様の声ここから*/     
+
+      #voice{
+        background-color: #FCFFD4;
+      }
+      #voice h2{
+        text-align: center;
+        padding-top: 50px;
+        font-size: 3rem;
+        line-height: 70px;
+        letter-spacing: 0.7rem;
+      }
+
+      hr{
+        border-width: 1px 0 0 0;
+        border-color: #272626;
+        margin: 30px 100px;
+      }
+
+
+      .voice1 h3{
+        font-size: 2rem;
+        margin-left: 100px;
+        margin-bottom: 30px;
+      }
+
+      .voice1 span{
+        font-size: 3rem;
+      }
+
+      .voice1 h4{
+        font-size: 35px;
+        text-align: center;
+        width: 600px;
+        height: 50px;
+        background-color: #FFFFFF;
+        box-shadow: 5px 5px 5px 5px #bbb; 
+        margin-left: 100px;
+      }
+
+      .voice1-container p{
+        width: 550px;
+        height: 250px;
+        background-color: #FFFFFF;
+        letter-spacing: 0.5rem;
+        padding: 20px 10px;
+        margin-right: 70px;
+        line-height: 25px;
+      }
+
+      .voice1-container{
+        display: flex;
+        padding: 70px;
+        margin-left: 80px;
+      }
+
+      .voice1-container img{
+        height: 250px;
+      }
+      .voice1{
+        width: 1300px;
+        margin: 0 auto;
+      }
+
+      .voice2{
+        width: 1300px;
+        margin: 0 auto;
+      }
+
+      .voice2 h3{
+        font-size: 2rem;
+        margin-right: 100px;
+        margin-bottom: 30px;
+        text-align: right;
+      }
+
+      .voice2 span{
+        font-size: 3rem;
+      }
+
+      .voice2 h4{
+        font-size: 35px;
+        text-align: center;
+        width: 630px;
+        height: 50px;
+        background-color: #FFFFFF;
+        box-shadow: 5px 5px 5px 5px #bbb; 
+        margin-left: auto;
+      }
+
+      .voice2-container p{
+        width: 550px;
+        height: 200px;
+        background-color: #FFFFFF;
+        letter-spacing: 0.5rem;
+        padding: 20px 10px;
+        margin-top: 50px;
+        margin-left: 70px;
+        line-height: 25px;
+      }
+
+      .voice2-container{
+        display: flex;
+        padding: 70px;
+        margin-left: 100px;
+      }
+
+      .voice2-container img{
+        height: 250px;
+      }
+/*お客様の声ここまで*/
+
+/*質問ここから*/
+      #question{
+        background-color: #D1FFD3;
+        height: 2200px;
+      }
+
+      .question{
+        text-align: center;
+      }
+
+
+       /*質問ここまで*/
+
+/*トレーナ紹介ここから*/
+      #treaner{
+        background-color: #FCFFD4;
+      }
+      
+      .treaner-container{
+        display: flex;
+        justify-content: center;
+      }
+
+      .treaner-container img{
+        width: 500px;
+        padding: 50px 50px 50px 50px;
+      }/*トレーナ紹介ここまで*/
+
+/*食事指導ここから*/
+      #eat{
+        background-color: #D1FFD3;
+        height: 830px;
+      }
+
+      .eat-image{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+      }/*食事指導ここまで*/
+
+/*料金案内ここから*/
+      #price{
+        background-color: #FCFFD4;
+        height: 750px;
+      }
+
+
+      .table-list{
+        margin: auto;
+        font-size: 120%;
+        line-height: 35px;
+        letter-spacing: 0.5rem;
+        background-color: #FFFFFF;
+      }
+
+      .table-list span{
+        font-size: 90%;
+      }
+
+    }       
