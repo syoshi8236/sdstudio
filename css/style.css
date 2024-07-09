@@ -11,7 +11,12 @@ img{
     max-width: 100%;
 }
 
-body{}  
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+}  
 
   /*title一括設定*/
   .title h2{
@@ -340,7 +345,7 @@ body{}
         background-color: #D1FFD3;
       }
       .access-container{
-        width: 1300px;
+        width: 100vw;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -419,12 +424,12 @@ body{}
         height: 250px;
       }
       .voice1{
-        width: 1300px;
+        width: 100vw;
         margin: 0 auto;
       }
 
       .voice2{
-        width: 1300px;
+        width: 100vw;
         margin: 0 auto;
       }
 
