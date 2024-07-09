@@ -530,4 +530,8 @@ body{
         font-size: 90%;
       }
 
+        @media (max-width:600px) {
+      
+    }
+
     }       
