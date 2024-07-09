@@ -199,9 +199,7 @@ body{
 
       .img-right{
         position: absolute;
-        left: 55%;
-        height: 500px;
-      }
+              }
 
       /*お悩み解決ここまで*/
 
@@ -295,12 +293,11 @@ body{
 
       .introduction{
         height: 300px;
-        width: 600px;
-        text-align: center;
+         text-align: center;
         letter-spacing: 0.7rem;
         line-height: 30px;
         margin: 50px;
-        padding-top: 70px;
+        padding: 70px;
         background-color: rgba(252, 251, 251, 0.5);
       }
 
