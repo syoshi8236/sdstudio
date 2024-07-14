@@ -180,7 +180,10 @@ img{
         font-size: 5rem;
         text-align: center;
       }
-      
+      .speach{
+        display: flex;
+        justify-content: center;
+      }
       /*お悩み解決ここまで*/
 
       /*3つのポイントここから*/
