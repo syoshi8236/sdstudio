@@ -469,7 +469,7 @@ img{
   .title h2{
     text-align: center;
     padding-top: 50px;
-    font-size: 2rem;
+    font-size: 20px;
     letter-spacing: 0.3rem;
   }
 
@@ -477,11 +477,23 @@ img{
     text-align: center;
     letter-spacing: 0.2rem;
     line-height: 2em;
-    font-size: 18px;
+    font-size: 16px;
     padding: 50px;
   }
-}
 
+
+  .campaign-container span{
+    font-size: 30px;
+  }
+  .campaign-container{
+    height: 40%;
+    border-radius: 50px;
+    padding: 1.5em 1.5em;
+    letter-spacing: 0.3rem;
+    background: linear-gradient(90deg, rgb(238, 117, 191) 0%, rgb(236, 196, 219) 50%, rgb(238, 117, 191) 100%);
+  }
+
+}
       
       
         
