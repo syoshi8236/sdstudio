@@ -13,11 +13,6 @@ img{
 
 
 
-body{
-  margin: 0px;
-  padding: 0px;
-}  
-
   /*title一括設定*/
   .title h2{
     text-align: center;
@@ -185,22 +180,7 @@ body{
         font-size: 5rem;
         text-align: center;
       }
-
-      .speach{
-        width: 100%;
-        position: relative;
-
-      }
-
-      .img-left{
-        position: absolute;
-        left: 15%;
-      }
-
-      .img-right{
-        position: absolute;
-              }
-
+      
       /*お悩み解決ここまで*/
 
       /*3つのポイントここから*/
@@ -293,11 +273,12 @@ body{
 
       .introduction{
         height: 300px;
-         text-align: center;
+        width: 600px;
+        text-align: center;
         letter-spacing: 0.7rem;
         line-height: 30px;
         margin: 50px;
-        padding: 70px;
+        padding-top: 70px;
         background-color: rgba(252, 251, 251, 0.5);
       }
 
@@ -342,7 +323,7 @@ body{
         background-color: #D1FFD3;
       }
       .access-container{
-        width: 100vw;
+        width: 1300px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -366,12 +347,8 @@ body{
       #voice{
         background-color: #FCFFD4;
       }
-      #voice h2{
-        text-align: center;
-        padding-top: 50px;
+      #voice span{
         font-size: 3rem;
-        line-height: 70px;
-        letter-spacing: 0.7rem;
       }
 
       hr{
@@ -379,98 +356,49 @@ body{
         border-color: #272626;
         margin: 30px 100px;
       }
+      .voice{
+        margin: 0 auto;
+      }
 
-
-      .voice1 h3{
+      .voice h3{
         font-size: 2rem;
         margin-left: 100px;
         margin-bottom: 30px;
       }
-
-      .voice1 span{
-        font-size: 3rem;
-      }
-
-      .voice1 h4{
+      
+      .voice h4{
         font-size: 35px;
         text-align: center;
-        width: 600px;
+        width: 650px;
         height: 50px;
         background-color: #FFFFFF;
         box-shadow: 5px 5px 5px 5px #bbb; 
         margin-left: 100px;
       }
 
-      .voice1-container p{
-        width: 550px;
-        height: 250px;
+      .uservoice p{
+        width: 700px;
+        height: 300px;
         background-color: #FFFFFF;
         letter-spacing: 0.5rem;
         padding: 20px 10px;
         margin-right: 70px;
-        line-height: 25px;
-      }
-
-      .voice1-container{
-        display: flex;
-        padding: 70px;
-        margin-left: 80px;
-      }
-
-      .voice1-container img{
-        height: 250px;
-      }
-      .voice1{
-        width: 100vw;
-        margin: 0 auto;
-      }
-
-      .voice2{
-        width: 100vw;
-        margin: 0 auto;
-      }
-
-      .voice2 h3{
-        font-size: 2rem;
-        margin-right: 100px;
-        margin-bottom: 30px;
-        text-align: right;
-      }
-
-      .voice2 span{
-        font-size: 3rem;
-      }
-
-      .voice2 h4{
-        font-size: 35px;
-        text-align: center;
-        width: 630px;
-        height: 50px;
-        background-color: #FFFFFF;
-        box-shadow: 5px 5px 5px 5px #bbb; 
-        margin-left: auto;
-      }
-
-      .voice2-container p{
-        width: 550px;
-        height: 200px;
-        background-color: #FFFFFF;
-        letter-spacing: 0.5rem;
-        padding: 20px 10px;
-        margin-top: 50px;
         margin-left: 70px;
-        line-height: 25px;
+        line-height: 30px;
+        text-align: left;
       }
 
-      .voice2-container{
+      .uservoice{
         display: flex;
-        padding: 70px;
-        margin-left: 100px;
+        padding: 30px;
+
       }
 
-      .voice2-container img{
+      .uservoice img{
         height: 250px;
+        margin-left: 70px;
       }
+
 /*お客様の声ここまで*/
 
 /*質問ここから*/
@@ -550,6 +478,7 @@ body{
     padding: 50px;
   }
 }
+
 
 
      
