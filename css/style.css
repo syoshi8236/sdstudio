@@ -522,6 +522,20 @@ img{
     height: 500px;
   }
 
+  .introduction{
+    text-align: left;
+  }
+  #piratis h3{
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+  }
+
+  #bodymake h3{
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+  }
+
+
 
 }
       
