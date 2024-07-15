@@ -524,18 +524,46 @@ img{
 
   .introduction{
     text-align: left;
+    font-size: 14px
   }
+
   #piratis h3{
-    font-size: 3rem;
-    letter-spacing: 1.2rem;
+    font-size: 30px;
+  }
+  #piratis h2{
+    font-size: 30px;
   }
 
   #bodymake h3{
-    font-size: 3rem;
-    letter-spacing: 1.2rem;
+    font-size: 30px;
+  }
+
+  #bodymake h2{
+    font-size: 30px;
   }
 
 
+  .address{
+    font-size: 16px;
+  }
+
+  .access-container{
+    display: flex;
+    flex-direction: column;
+    padding:70px;
+  }
+
+  .access-container img{
+    width: 300px;
+    padding-bottom: 50px;
+  }
+
+  .address{
+    font-size: 25px;
+    letter-spacing: 0.7rem;
+    line-height: 50px;
+    text-align: center;
+}
 
 }
       
