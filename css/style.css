@@ -494,6 +494,21 @@ img{
     background: linear-gradient(90deg, rgb(238, 117, 191) 0%, rgb(236, 196, 219) 50%, rgb(238, 117, 191) 100%);
   }
 
+  .campaign-normal{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .admission-free{
+    font-size: 50px;
+  }
+
+  .campaign-price{
+    font-size: 20px;
+  }
+
 }
       
       
