@@ -485,8 +485,8 @@ img{
     font-size: 30px;
   }
   .campaign-container{
-    height: 40%;
-    width: 150%;
+    height: 100px;
+    width: 300px;
     border-radius: 50px;
     padding: 1.5em 1.5em;
     letter-spacing: 0.3rem;
@@ -522,7 +522,7 @@ img{
   }
 
   .introduction{
-    height: 350px;
+    height: 300px;
     text-align: left;
     letter-spacing: 0.7rem;
     line-height: 20px;
@@ -566,20 +566,18 @@ img{
     font-size: 2rem;
   }
 
-  .voice{
-    margin: 0 auto;
-  }
+
 
   .voice h3{
     font-size: 1rem;
-    margin: 0 auto;
     margin-bottom: 30px;
+    text-align: center;
   }
   
   .voice h4{
     font-size: 20px;
     text-align: center;
-    width: 400px;
+    width: 380px;
     height: 50px;
     background-color: #FFFFFF;
     box-shadow: 5px 5px 5px 5px #bbb; 
@@ -587,7 +585,7 @@ img{
   }
 
   .uservoice p{
-    width: 420px;
+    width: 380px;
     height:300px;
     background-color: #FFFFFF;
     letter-spacing: 0.1rem;
@@ -602,16 +600,17 @@ img{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    text-align: center;
 
   }
 
   .uservoice img{
     height: 250px;
-    margin: 0 auto;
   }
 
 
 }
+  
       
       
         
