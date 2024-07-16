@@ -631,6 +631,16 @@ img{
     font-size: 15px;
   }
 
+  .treaner-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .treaner-container img{
+    width: 500px;
+    padding: 50px 50px 50px 50px;
+  }
+
 
 }
   
