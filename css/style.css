@@ -562,18 +562,39 @@ img{
     padding-bottom: 50px;
   }
 
+  #voice span{
+    font-size: 2rem;
+  }
 
+  .voice{
+    margin: 0 auto;
+  }
 
   .voice h3{
     font-size: 1rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
   
   .voice h4{
     font-size: 20px;
     text-align: center;
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px #bbb; 
+    margin: 0 auto;
   }
 
   .uservoice p{
+    width: 420px;
+    height:300px;
+    background-color: #FFFFFF;
+    letter-spacing: 0.1rem;
+    padding: 20px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 30px;
     text-align: left;
   }
 
@@ -586,8 +607,9 @@ img{
 
   .uservoice img{
     height: 250px;
-    margin-left: 70px;
+    margin: 0 auto;
   }
+
 
 }
       
