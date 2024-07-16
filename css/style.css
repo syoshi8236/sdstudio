@@ -558,6 +558,32 @@ img{
   }
 
 
+
+  .voice h3{
+    font-size: 1rem;
+  }
+  
+  .voice h4{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .uservoice p{
+    text-align: left;
+  }
+
+  .uservoice{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+  }
+
+  .uservoice img{
+    height: 250px;
+    margin-left: 70px;
+  }
+
 }
       
       
