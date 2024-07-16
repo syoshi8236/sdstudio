@@ -522,8 +522,13 @@ img{
   }
 
   .introduction{
+    height: 350px;
     text-align: left;
-    font-size: 14px
+    letter-spacing: 0.7rem;
+    line-height: 20px;
+    margin: 50px;
+    padding-top: 20px;
+    background-color: rgba(252, 251, 251, 0.5);
   }
 
   #piratis h3{
