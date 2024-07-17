@@ -451,7 +451,18 @@ img{
       #price{
         background-color: #FCFFD4;
         height: 750px;
+  
+      table,td,th{
+        border: solid 1px;
+        border-collapse: collapse;
+        width: 500px;
       }
+
+      td,th{
+        padding: 20px;
+        text-align: center;
+      }
+      
 
 
       .table-list{
