@@ -500,10 +500,10 @@ img{
     font-size: 30px;
   }
   .campaign-container{
-    height: 100px;
-    width: 300px;
+    height: 200px;
+    width: 400px;
     border-radius: 50px;
-    padding: 1.5em 1.5em;
+    padding: 1em 1em;
     letter-spacing: 0.3rem;
     background: linear-gradient(90deg, rgb(238, 117, 191) 0%, rgb(236, 196, 219) 50%, rgb(238, 117, 191) 100%);
   }
@@ -653,24 +653,31 @@ img{
   }
 
   #price{
-    height: 750px;
-  }
+    height: 550px;
 
   table,td,th{
     border: solid 1px;
     border-collapse: collapse;
-    width: 400px;
+    width: 300px;
   }
 
-
+  td,th{
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table-list{
+    margin: auto;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2rem;
+  }
 
   .table-list span{
-    font-size: 14px;
+    font-size: 12px;
   }
 
+
 }
-
-      
-
-
-     
+    
+}
