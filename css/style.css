@@ -479,7 +479,7 @@ img{
   .title h2{
     text-align: center;
     padding-top: 50px;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.3rem;
   }
 
@@ -495,18 +495,28 @@ img{
     position: relative;
   }
 
+  #campaign{
+    height: 726px;
+    display: flex;
+    justify-content: center;
+    background-color: #D1FFD3;
+    position: relative;
+  }
+
 
   .campaign-container span{
     font-size: 30px;
   }
+
   .campaign-container{
-    height: 200px;
-    width: 350px;
-    border-radius: 50px;
-    padding: 1em 1em;
-    letter-spacing: 0.3rem;
-    background: linear-gradient(90deg, rgb(238, 117, 191) 0%, rgb(236, 196, 219) 50%, rgb(238, 117, 191) 100%);
+    background-color:#ff96ff;
+    color: #272626;
+    border-radius: 5px;
+    padding: 18px 32px;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
   }
+  
   .campaign-container h3{
     text-align: center;
     font-size: 20px;
@@ -549,9 +559,7 @@ img{
   #piratis h3{
     font-size: 30px;
   }
-  #piratis h2{
-    font-size: 30px;
-  }
+
 
   #bodymake h3{
     font-size: 30px;
@@ -562,23 +570,26 @@ img{
   }
 
 
+
   .address p{
     font-size: 16px;
     width: 350px;
     letter-spacing: 0.2rem;
     line-height: 20px;
+    margin: 0 auto;
   }
 
   .access-container{
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding:70px;
+    padding:0px;
   }
 
   .access-container img{
     width: 300px;
     padding-bottom: 50px;
+    margin: 0 auto;
   }
 
   #voice span{
@@ -597,7 +608,7 @@ img{
   }
   
   .voice h4{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     width: 350px;
     height: 50px;
@@ -615,6 +626,7 @@ img{
     margin-left: 0px;
     line-height: 30px;
     text-align: left;
+    margin: 0 auto;
   }
 
   .uservoice{
@@ -622,12 +634,12 @@ img{
     flex-direction: column;
     padding: 30px;
     text-align: center;
-
   }
 
   .uservoice img{
     height: 250px;
     width: 300px;
+    padding: 20px;
   }
 
   #question{
@@ -685,3 +697,8 @@ img{
 }
     
 }
+
+
+      
+      
+        
