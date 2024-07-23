@@ -33,7 +33,7 @@ img{
     #nav{
       background-color: #FCFFD4;
       width: 100%;
-      height: 140px;
+      height: 8vw;
       position: relative;
     }
 
@@ -69,8 +69,8 @@ img{
       }
 
       .campaign-container{
-        width: 600px;
-        height: 250px;
+        width: 60vw;
+        height: 200px;
         border-radius: 50px;
         padding: 1.5em 1.5em;
         letter-spacing: 0.3rem;
@@ -97,7 +97,7 @@ img{
         display: flex;
         justify-content: space-between;
         font-size: 2rem;
-        width: 800px;
+        width: 70%;
         position: absolute;
         padding-top: 20px;
         top:50%
@@ -115,7 +115,7 @@ img{
            
       .campaign-price {
         font-size: 2rem;
-        width: 800px;
+        width: 100%;
         position: absolute;
         top: 55%
       }
@@ -142,7 +142,8 @@ img{
       #try{
         background-color: #FCFFD4;
         width: 100%;
-        height: 450px;
+        height: auto;
+        padding-bottom: 80px;
         text-align: center;
       }
 
@@ -167,8 +168,9 @@ img{
       /*お悩みかいけつここから*/
 
       #answer{
-        height: 580px;
+        height: auto;
         width: 100%;
+        padding-bottom: 50px;
         background-color:#FCFFD4;
       }
 
@@ -185,8 +187,9 @@ img{
 
       /*3つのポイントここから*/
       #point{
-        height: 900px;
+        height: auto;
         background-color: #FCFFD4;
+        padding-bottom: 50px;
       }
 
 
@@ -225,7 +228,7 @@ img{
 
       /*2コースここから*/
       #corce{
-        height: 500px;
+        height: auto;
         background-color: #D1FFD3;
       }
 
@@ -272,13 +275,14 @@ img{
       }
 
       .introduction{
-        height: 300px;
-        width: 600px;
+        height: auto;
+        width: 50vw;
         text-align: center;
         letter-spacing: 0.7rem;
         line-height: 30px;
         margin: 50px;
         padding-top: 70px;
+        padding-bottom: 70px;
         background-color: rgba(252, 251, 251, 0.5);
       }
 
@@ -330,7 +334,7 @@ img{
       }
 
       .access-container img{
-        width: 300px;
+        width: 16vw;
         padding-bottom: 50px;
       }
 
@@ -368,16 +372,17 @@ img{
       .voice h4{
         font-size: 35px;
         text-align: center;
-        width: 650px;
-        height: 50px;
+        width: 40vw;
+        height: auto;
         background-color: #FFFFFF;
         box-shadow: 5px 5px 5px 5px #bbb; 
+        padding: 10px;
         margin-left: 100px;
       }
 
       .uservoice p{
-        width: 700px;
-        height: 300px;
+        width: auto;
+        height: auto;
         background-color: #FFFFFF;
         letter-spacing: 0.5rem;
         padding: 20px 10px;
@@ -385,6 +390,8 @@ img{
         margin-left: 70px;
         line-height: 30px;
         text-align: left;
+        display: flex;
+        align-items: center;
       }
 
       .uservoice{
@@ -394,7 +401,8 @@ img{
       }
 
       .uservoice img{
-        height: 250px;
+        height: auto;
+        width: auto;
         margin-left: 70px;
       }
 
@@ -403,7 +411,8 @@ img{
 /*質問ここから*/
       #question{
         background-color: #D1FFD3;
-        height: 1600px;
+        height: auto;
+        padding-bottom: 50px;
       }
 
       .question{
@@ -428,14 +437,15 @@ img{
       }
 
       .treaner-container img{
-        width: 500px;
+        width: 39vw;
         padding: 50px 50px 50px 50px;
       }/*トレーナ紹介ここまで*/
 
 /*食事指導ここから*/
       #eat{
         background-color: #D1FFD3;
-        height: 830px;
+        height: auto;
+        padding-bottom: 50px;
       }
 
       .eat-image{
@@ -447,12 +457,13 @@ img{
 /*料金案内ここから*/
       #price{
         background-color: #FCFFD4;
-        height: 750px;
+        height: auto;
+        padding-bottom: 50px;
   
       table,td,th{
         border: solid 1px;
         border-collapse: collapse;
-        width: 500px;
+        width: 50vw;
       }
 
       td,th{
@@ -547,12 +558,12 @@ img{
   }
 
   .introduction{
-    height: 300px;
+    height: auto;
     text-align: left;
     letter-spacing: 0.7rem;
     line-height: 20px;
     margin: 50px;
-    padding-top: 20px;
+    padding: 20px;
     background-color: rgba(252, 251, 251, 0.5);
   }
 
@@ -618,8 +629,8 @@ img{
   }
 
   .uservoice p{
-    width: 350px;
-    height:300px;
+    width: auto;
+    height:auto;
     letter-spacing: 0.1rem;
     padding: 20px 10px;
     margin-right: 0px;
@@ -637,13 +648,13 @@ img{
   }
 
   .uservoice img{
-    height: 250px;
-    width: 300px;
+    height: auto;
+    width: auto;
     padding: 20px;
   }
 
   #question{
-    height: 1800px;
+    height: auto;
   }
 
   .question{
@@ -661,15 +672,15 @@ img{
   }
 
   .treaner-container img{
-    width: 500px;
+    width: auto;
     padding: 30px 30px;
   }
   #eat{
-    height: 700px;
+    height: auto;
   }
 
   #price{
-    height: 550px;
+    height: auto;
 
   table,td,th{
     border: solid 1px;
@@ -697,8 +708,3 @@ img{
 }
     
 }
-
-
-      
-      
-        
