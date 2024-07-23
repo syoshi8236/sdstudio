@@ -559,11 +559,12 @@ img{
 
   .introduction{
     height: auto;
+    width: auto;
     text-align: left;
     letter-spacing: 0.7rem;
     line-height: 20px;
-    margin: 50px;
     padding: 20px;
+    margin: 0 auto;
     background-color: rgba(252, 251, 251, 0.5);
   }
 
@@ -571,20 +572,27 @@ img{
     font-size: 30px;
   }
 
-
   #bodymake h3{
     font-size: 30px;
   }
 
-  #bodymake h2{
-    font-size: 30px;
+  .course h2{
+    font-size: 30px;  
+    letter-spacing: 1.2rem;
+    padding: 50px 30px;
+    text-decoration: none;
   }
 
-
-
+  #bodymake h2{
+    font-size: 30px;  
+    letter-spacing: 1.2rem;
+    padding: 50px 30px;
+    text-decoration: none;
+  }
+  
   .address p{
     font-size: 16px;
-    width: 350px;
+    width: auto;
     letter-spacing: 0.2rem;
     line-height: 20px;
     margin: 0 auto;
@@ -648,9 +656,9 @@ img{
   }
 
   .uservoice img{
-    height: auto;
     width: auto;
     padding: 20px;
+    margin: 0 auto;
   }
 
   #question{
@@ -708,3 +716,8 @@ img{
 }
     
 }
+
+
+      
+      
+        
