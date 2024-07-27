@@ -462,9 +462,17 @@ img{
     text-align: center;
   }
 
- #nav{
-     display:none;
- }
+  .main-nav{
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    list-style: none;
+  }
+
+  .main-nav li{
+    letter-spacing: 0.2rem;
+    padding-left: 15px;
+  }
 
   #campaign{
     display: flex;
