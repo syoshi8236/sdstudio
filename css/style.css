@@ -462,11 +462,6 @@ img{
     text-align: center;
   }
 
-  #nav{
-    height: 200px;
-    position: relative;
-  }
-
   #campaign{
     display: flex;
     justify-content: center;
