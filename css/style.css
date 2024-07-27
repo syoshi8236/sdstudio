@@ -501,18 +501,18 @@ img{
     display: none;
   }
 
-  .free{
+    .free{
     font-size: 25px;
   }
 
   .free span{
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .campaign-price{
     width: 100%;
-    font-size: 16px;
   }
+
 
   #answer p{
     text-align: center;
